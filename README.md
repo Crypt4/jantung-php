@@ -9,7 +9,7 @@ Jantung is a simple issue tracker for monitoring your application crashes. This 
 ## Installation
 
 ```bash
-composer require Crypt4/jantung-php
+composer require crypt4/jantung-php
 ```
 
 ## Adding New Metric
