@@ -1,5 +1,5 @@
 {
-    "name": "Crypt4/jantung-php",
+    "name": "crypt4/jantung-php",
     "description": "Jantung for PHP",
     "license": "MIT",
     "autoload": {
