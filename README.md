@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/Crypt4/jantung-php/actions"><img src="https://github.com/Crypt4/jantung-php/actions/workflows/run-tests.yml/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/crypt4/jantung-php/actions"><img src="https://github.com/crypt4/jantung-php/actions/workflows/run-tests.yml/badge.svg" alt="Build Status"></a>
 </p>
 
 # Jantung PHP Client
