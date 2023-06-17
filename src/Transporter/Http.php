@@ -19,6 +19,8 @@ class Http implements Contract
 
     protected string $endpoint;
 
+    protected string $version;
+
     protected $configurations = [];
 
     protected $storage = [];
@@ -35,6 +37,7 @@ class Http implements Contract
         TransporterException::throwIfMissingCredentials($key, $token);
 
         $this->endpoint = $endpoint;
+        $this->version = $version;
 
         $this->setClient(
             new Client([
@@ -91,6 +94,6 @@ class Http implements Contract
 
     public function url(string $endpoint)
     {
-        return rtrim($this->endpoint, '/').'/'.trim($endpoint, '/');
+        return rtrim($this->endpoint, '/').'/'.trim($this->version, '/').'/'.'issues'.'/'.trim($endpoint, '/');
     }
 }
